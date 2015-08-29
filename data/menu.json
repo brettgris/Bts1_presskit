@@ -1,0 +1,40 @@
+{
+	"links":[
+		{
+			"name":"Synopsis",
+			"path":"keyart",
+			"external":false,
+			"background":"black no-repeat center top"
+		},{
+			"name":"Cast",
+			"path":"cast",
+			"external":false,
+			"background":"url(images/bg/desk_white.jpg) white no-repeat center 50px"
+		},{
+			"name":"Production Bios",
+			"path":"production",
+			"external":false,
+			"background":"url(images/bg/sign_white.jpg) white no-repeat center 50px"
+		},{
+			"name":"Gallery",
+			"path":"gallery",
+			"external":false,
+			"background":"url(images/bg/car.jpg)  #002a48 no-repeat center 50px"
+		},{
+			"name":"Videos",
+			"path":"videos",
+			"external":false,
+			"background":"url(images/bg/window.jpg) #002a48  no-repeat center 50px"
+		},{
+			"name":"Screening Room",
+			"path":"https://microsites.starz.com/ScreeningRoom/Account/Login",
+			"external":true,
+			"background":""
+		},{
+			"name":"Press Materials",
+			"path":"downloads",
+			"external":false,
+			"background":"url(images/bg/drawing.jpg) #002a48 no-repeat center 50px"
+		}
+	]
+}

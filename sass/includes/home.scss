@@ -1,0 +1,215 @@
+$scale-ratio: .75;
+
+$head-width:728;
+$head-height:930;
+$head-x:960;
+$head-y:540;
+$head-left: $head-x - $head-width/2;
+$head-top: $head-y - $head-height/2;
+$head-ratio: percentage($head-height/$head-width);
+
+$artwork-width: ($head-width*$scale-ratio)+px;
+$artwork-height: ($head-height*$scale-ratio)+px;
+$artwork-center: (($head-width*$scale-ratio)/-2)+px;
+
+$quote-width:728px;
+$quote-height: 59/413;
+
+$artwork-break: $head-width*$scale-ratio + 30 +px;
+
+@mixin artworkitem($x,$y,$width,$height){
+	width: percentage($width/$head-width);
+	left: percentage( ($x - $head-left)/$head-width );
+	margin-left: percentage($width/$head-width)/-2;
+	top: percentage( ($y - $head-top)/$head-height );
+	margin-top: (percentage($width/$head-width)*($height/$width))/-2;
+	position: absolute;
+	overflow: hidden;
+	
+	img{
+		width:100%;
+	}
+}
+
+.home{
+	background: $dark-blue;
+	width:100%;
+	position:absolute;
+	overflow: hidden;
+	padding-top: 0px !important;
+	
+	.bellyband{
+		position:absolute;
+		width:200%;
+		position: absolute;
+		background: url(#{$imgPath}intro/bellyband.svg) center center no-repeat;
+		left:-50%;
+		display: none;
+		
+		.quote{
+			background: url(#{$imgPath}intro/quote.svg) center center no-repeat;
+			width:$quote-width;
+			height:$quote-width*$quote-height;
+			margin: auto; 
+		}
+	}
+	
+	.artwork{
+		width:$artwork-width;
+		height:$artwork-height;
+		position:absolute;
+		left:50%;
+		margin-left: $artwork-center;
+		top: 0px;
+		display:none;
+		
+		div{
+			position:absolute;
+		}
+		
+		.outline{
+			width:100%;
+			height:100%;
+			top:0;
+		}
+		
+		.ta{
+			@include artworkitem(975,510,600,86);
+		}
+		
+		.topitems{
+			.largepills{
+				@include artworkitem(709,174,43,44);
+			}
+			
+			.openbook{
+				@include artworkitem(852,149,187,66);
+			}
+			
+			.sword{
+				@include artworkitem(829,219,233,41);
+			}
+			
+			.us{
+				@include artworkitem(998,175,61,105);
+			}
+			
+			.money{
+				@include artworkitem(660,264,76,93);
+			}
+			
+			.books{
+				@include artworkitem(750,285,85,60);	
+			}
+			
+			.pour{
+				@include artworkitem(883,293,142,107);
+			}
+			
+			.weed{
+				@include artworkitem(1004,269,69,69);
+			}
+			
+			.statue{
+				@include artworkitem(1138,305,185,236);
+			}
+			
+			.woman{
+				@include artworkitem(918,365,239,106);
+			}
+			
+			.paint{
+				@include artworkitem(846,360,75,52);
+			}
+			
+			.anchor{
+				@include artworkitem(758,355,224,114);
+			}
+			
+			.nipple{
+				@include artworkitem(649,380,62,108);
+			}
+			
+			.mic{
+				@include artworkitem(999,408,178,100);
+			}
+			
+			.coffee{
+				@include artworkitem(707,427,62,64);
+			}
+			
+			.pillcontainer{
+				@include artworkitem(871,457,87,42);
+			}
+			
+			.pills{
+				@include artworkitem(1134,445,45,15);
+			}
+
+		}
+		
+		.bottomitems{
+			.camera{
+				@include artworkitem(776,625,124,105);
+			}
+			
+			.onair{
+				@include artworkitem(1154,598,148,42);
+			}
+			
+			.glass{
+				@include artworkitem(1029,601,51,75);
+			}
+			
+			.panties{
+				@include artworkitem(984,648,57,115);
+			}
+			
+			.bra{
+				@include artworkitem(1130,668,193,47);
+			}
+			
+			.waltersign{
+				@include artworkitem(785,731,142,74);
+			}
+			
+			.bottle{
+				@include artworkitem(899,676,74,166);
+			}
+			
+			.canoe{
+				@include artworkitem(1099,738,270,54);
+			}
+			
+			.flask{
+				@include artworkitem(991,812,87,102);
+			}
+			
+			.shoe{
+				@include artworkitem(908,805,73,60);
+			}
+			
+			.coins{
+				@include artworkitem(817,796,87,19);
+			}
+			
+			.hat{
+				@include artworkitem(703,819,93,71);
+			}
+			
+			.weed2{
+				@include artworkitem(816,861,85,86);
+			}
+			
+			.brush{
+				@include artworkitem(784,908,112,73);
+			}
+			
+			.world{
+				@include artworkitem(914,919,104,101);
+			}
+		}
+	}
+}
+
+

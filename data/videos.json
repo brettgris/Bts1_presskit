@@ -1,0 +1,88 @@
+{
+	"sections":[{
+		"title": "Teasers and Featurettes",
+		"videos":[
+			{
+				"name":"Blunt Talk Teaser",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/8c9335ac985d43b5aa7b6b81f5cb306c",
+				"thumb":"teaser.jpg"
+			},{
+				"name":"Blunt Talk Featurette",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/48142910708d478885240a107725bdd1",
+				"thumb":"firstlook.jpg"
+			},{
+				"name":"Blunt Talk Trailer",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/e4c6db23f572403dae5b03ca5b5d6b9b",
+				"thumb":"trailer.jpg"
+			},{
+				"name":"Walter & Harry",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/cf4d9199b95b4e4ea11decc4937de610",
+				"thumb":"walterharry.jpg"
+			}
+		]
+	},{
+		"title": "EPK Interviews and Clips",
+		"videos":[
+			{
+				"name":"Ep 101 Clip - All That's Left",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/0163e5217f524710ada42c1d585f0f00?cid=071315bts1sc1",
+				"thumb":"clip-allthatsleft.jpg"
+			},{
+				"name":"Ep 101 Clip - Naughty Boy",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/ad7a0c9638d14b308434baf060cabd6d?cid=071315bts1sc2",
+				"thumb":"clip-naughtyboy.jpg"
+			},{
+				"name":"Ep 102 Clip - A Near Death Experience",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/9ffbcdc671ba4089b3fbe4296d5a2360?cid=071315bts1sc3",
+				"thumb":"clip-aneardeathexperience.jpg"
+			},{
+				"name":"Ep 102 Clip - Hope Business",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/36e12b73ef09429480c77a45d5e9ffda?cid=071315bts1sc4",
+				"thumb":"clip-hopebusiness.jpg"
+			},{
+				"name":"Working With Patrick Stewart",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/aa7ac547a68841338bd3a70298b0c30f",
+				"thumb":"patrickstewart.jpg"
+			},{
+				"name":"Who Is Walter Blunt",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/cb55632f88cc4146a7bac48a39704c62",
+				"thumb":"walterblunt.jpg"
+			},{
+				"name":"Working with Jonathan Ames",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/5acabbc7ea3746a8972cbd7e7b1e4e51",
+				"thumb":"jonathanames.jpg"
+			},{
+				"name":"Who is Harry",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/e11533e3ab834acf8d0b863b7254eeda",
+				"thumb":"whoisharry.jpg"
+			},{
+				"name":"What is Blunt Talk News Show",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/ac46948da22c4ac195ac80ce766349d2",
+				"thumb":"newsshow.jpg"
+			},{
+				"name":"Behind-the-Scenes",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/e3645d7d8dd849d3af8c3deea4976f2e",
+				"thumb":"bts.jpg"
+			},{
+				"name":"Characters",
+				"desc":"Desc",
+				"path":"https://www.starz.com/videos/embed/5329dbb7f28a4476a5c5b753815fc2b9",
+				"thumb":"characters.jpg"
+			}
+		]
+	}]
+}

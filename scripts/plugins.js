@@ -1,0 +1,11 @@
+// @codekit-append "plugins/jquery-2.1.4.min.js";
+// @codekit-append "plugins/handlebars-v3.0.3.js";
+// @codekit-append "plugins/handlebarloader-min.js";
+// @codekit-append "plugins/tweenmax.js";
+// @codekit-append "plugins/drawsvgplugin.min.js";
+// @codekit-append "plugins/touchswipe.min.js";
+// @codekit-append "plugins/jquery.scrollTo.min.js";
+// @codekit-append "plugins/pageswitcher-min.js";
+// @codekit-append "plugins/presskitslideshow-min.js";
+// @codekit-append "plugins/presskitgallery-min.js";
+// @codekit-append "plugins/blunttalkanimator-min.js";
